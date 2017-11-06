@@ -7,7 +7,7 @@ function getAndPrintHTML ($option) {
   fclose($handle);
   echo $content;
 }
-$option = "https://sytantris.github.io/http-examples/step3.html";
+$url = "https://sytantris.github.io/http-examples/step3.html";
 
-getAndPrintHTML($option);
+getAndPrintHTML($url);
 ?>
